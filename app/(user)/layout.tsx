@@ -37,6 +37,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/logo.png" />
+      </head>
       <body className={inter.className}>
       <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
